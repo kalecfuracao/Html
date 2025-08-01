@@ -1,0 +1,15 @@
+body{
+                color: white;
+                background-color: black;
+            }
+            .par{
+             font-weight: bold;
+
+             font-size: 20px;
+
+             color: orange;
+            }
+            .destaque{
+                font-size: 25px;
+                background-color: rgb(30, 31, 59);
+            }
