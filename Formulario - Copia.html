@@ -1,0 +1,61 @@
+<html>
+    <head>
+        <title>Formulário</title>
+    </head>
+    <body>
+        <h2>Formulário</h2>
+        <form action="excercicios.html" target="_blank" >
+            <div>
+                <div><label for="Nome">Nome:</label></div>
+                <input type="text" name="Nome" id="Nome" value="jose" required>
+            </div>
+            <div>
+                <div><label for="email">email:</label></div>
+                <input type="email" name="email" id="email" value="jose@almeida" required>   
+            </div>
+           <div>
+            <div><label for="senha">senha:</label></div>
+            <input type="password" name="senha" id="senha" value="1234" required>
+           </div>
+           <div>
+            <div><label for="bio">fale sobre voce:</label></div>
+            <textarea name="bio" id="bio" cols="25" rows="5"></textarea>
+           </div>
+           <div>
+            <div>Tipos de residencia</div>
+            <input type="radio" name="residencia" id="casa" value="casa">
+            <label for="casa">Casa</label> 
+            <input type="radio" name="residencia" id="apto" value="apto">
+            <label for="apto">Apartamento</label>
+            <input type="radio" name="residencia" id="ruas" value="ruas">
+            <label for="ruas">Rua</label>
+            <input type="radio" name="residencia" id="quarto" value="quarto">
+            <label for="quarto">Quarto</label>
+           </div>
+           <div>
+            <select name="plano" id="plano">
+                <option value="gratis">Plano Gratuito</option>
+                <option value="prata">Plano Prata - 30 USD</option>
+                <option value="ouro">Plano Ouro - 100 USD</option>
+            </select>
+           </div>
+           <div>
+                <div>Usuarios:</div>
+                <input type="checkbox" name="technologia" id="">
+                <label for="technologia">Technologia</label>
+                <input type="checkbox" name="esporte" id="esporte">
+                <label for="esporte">Esporte</label>
+                <input type="checkbox" name="cinema" id="cinema"> 
+                <label for="cinema">Cinema</label>
+                <input type="checkbox" name="musica" id="musica"> 
+                <label for="musica">Musica</label>
+           </div>
+            <div>
+             <button>Salvar</button>
+              <button type="reset">Limpar</button>  
+            </div>
+            
+        </form>
+    </body>
+</html>
+
